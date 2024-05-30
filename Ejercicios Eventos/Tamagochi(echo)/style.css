@@ -1,0 +1,168 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#fondo{
+    width: 1500px;
+    height: 720px;
+    margin: -15px;
+    opacity: 80%;
+    
+}
+#tamagotchi{
+z-index: 1;
+position: absolute;
+width: 200px;
+height: 200px;
+margin-left: 650px;
+margin-top: 250px;
+}
+.container-bar{
+    width: 300px;
+    height: 22px;
+    margin-top:50px ;
+    background-color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.progress-bar-eat{
+    height: 100%;
+    background-color: #B8FBB6;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#eat{
+    z-index: 1;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#play{
+    z-index: 1;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;   
+}
+.container-bar-play{
+    width: 300px;
+    height: 22px;
+    margin-top:110px ;
+    background-color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.progress-bar-play{
+    height: 100%;
+    background-color: #FFFD96;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#fight{
+    z-index: 1;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 450px;   
+}
+.container-bar-fight{
+    width: 300px;
+    height: 21px;
+    margin-top:480px;
+    background-color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.progress-bar-fight{
+    height: 100%;
+    background-color: #FE9798;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+#sleep{
+    z-index: 1;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 520px;
+}
+.container-bar-sleep{
+    width: 300px;
+    height: 22px;
+    margin-top:550px;
+    background-color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.progress-bar-sleep{
+    height: 100%;
+    background-color:#87CEEA;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#btn-eat{
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+    margin-top: 160px;
+}
+#btn-sleep{
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;;
+    margin-left: 130px;
+    background-color: white;
+}
+#btn-play{
+    position: absolute;
+    z-index: 1;
+    margin-top: 310px;
+    background-color: white;
+}
+#btn-fight{
+    position: absolute;
+    z-index: 1;
+    margin-top: 390px;
+    margin-left: 130px;
+    background-color: white;
+}
+img{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+}
+.progress-bar-eat{
+    width: 100%;
+    height: 20px;
+    background-color: green;
+}
+.progress-bar-play{
+    width: 100%;
+    height: 20px;
+    background-color:dodgerblue;
+}
+.progress-bar-fight{
+    width: 100%;
+    height: 20px;
+    background-color: orchid;
+}
+.progress-bar-sleep{
+    width: 100%;
+    height: 20px;
+    background-color:orangered;
+}

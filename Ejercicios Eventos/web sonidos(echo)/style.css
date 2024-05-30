@@ -1,0 +1,64 @@
+
+h1{
+    position: absolute;
+    z-index: 1;
+    color: yellow;
+    margin-left: 560px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fondo{
+    width: 1490px;
+    height: 720px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    object-fit: cover; 
+}
+button{
+    position: absolute;
+    z-index: 1;
+    border: 3px solid yellow;
+    
+}
+#timba{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top: 25px;
+}
+#timbaFoto{
+    width: 70px;
+    height: 90px;
+}
+#tarola{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top:150px;
+}
+#tarolaFoto{
+    width: 70px;
+    height: 90px;
+}
+#pandereta{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top:275px;
+}
+#panderetaFoto{
+    width: 70px;
+    height: 90px;
+}
+#batucada{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top:400px;
+}
+#fotoBatucada{
+    width:120px;
+    height: 90px;
+}

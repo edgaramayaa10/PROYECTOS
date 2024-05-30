@@ -1,0 +1,20 @@
+button{
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+#toggleButton{
+    color: red;
+    margin-top: 10px;
+}
+#toggleButton2{
+    color: blue;
+    margin-top: 15px;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
